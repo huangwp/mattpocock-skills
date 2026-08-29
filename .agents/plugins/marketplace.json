@@ -1,0 +1,20 @@
+{
+  "name": "mattpocock",
+  "interface": {
+    "displayName": "Matt Pocock Skills"
+  },
+  "plugins": [
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NOT_REQUIRED"
+      },
+      "category": "Engineering"
+    }
+  ]
+}
